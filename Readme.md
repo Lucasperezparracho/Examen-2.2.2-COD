@@ -23,4 +23,8 @@ classDiagram
         +getDescripcion(): String
     }
 ```
-
+### Combinacion con el Factory
+#### Creamos un interfaz CocheBuilder
+#### Creamos una clase que implemente CocheBuilder
+#### Despues de esto creamos clases para personalizar cada coche donde vaos a utilizar el interzaz y la clase anteriores para darle valores
+#### Y por ultimo llamamos a los distintos tipos de coche que personalizamos.
